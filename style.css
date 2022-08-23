@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(36, 62, 97);
+}
+
+header {
+    top: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    position: absolute;
+    width: auto;
+    height: 240px;
+}
+
+#barraTitulo {
+    background-image: url("b78de50ead1fe734e86da657e6ef804a.jpg");
+}
+
+#title {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+}
+
+#boxMain {
+    display: block;
+    width: 500px;
+    height: 600px;
+    margin: 1px;
+    padding: 0;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-top: 250px;
+    margin-left: 700px;
+    background-color: rgb(77, 108, 137);
+}
+
+#background-palette {
+    display: block;
+    width: 210px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#color-palette {
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+.color {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid;
+}
+
+#color0 {
+    background-color: white;
+}
+
+#color1 {
+    background-color: white;
+}
+
+#color2 {
+    background-color: white;
+}
+
+#color3 {
+    background-color: white;
+}
+
+#background-pixel {
+    display: block;
+    width: 210px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#pixel-board {
+    display: inline-block;
+}
+
+.linePixelColor {
+    width: 210px;
+    height: 40px;
+}
+
+.pixel {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 40px;
+    text-align: center;
+}
+
+#textPixel {
+    width: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+button,
+#regularPixel {
+    display: inline-block;
+    background-color: #243E61;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+button:hover,
+#regularPixel:hover {
+    background-color: white;
+    color: black;
+}

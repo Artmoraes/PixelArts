@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Define o charset da página, especificando o tipo de teclas ASCII-->
+    <title>Paleta de Cores</title>
+    <!--O título da página, onde fica o nome na aba do navegador-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Portviwer, para ajustar a escala da página-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Referência para o documento style.css para transportar as alterações no CSS para página atual HTML.-->
+</head>
+
+<body>
+    <header id="barraTitulo">
+        <!--Cabeçalho da página-->
+        <h1 id="title">Paleta de Cores</h1>
+    </header>
+    <!--Cabeçalho da página-->
+    <main id="boxMain" class="main">
+        <!--Bloco da página onde tem todo o conteúdo principal-->
+        <div id="background-palette">
+            <!--Local onde será apenas o bloco de alocação e organização de elementos.-->
+            <div id="color-palette">
+                <!--Paleta de cores onde vai ficar localizado as cores para pintar os pixels-->
+                <div id="color0" class="color selected"></div>
+                <!-- Cor Preta -->
+                <div id="color1" class="color"></div>
+                <!--Random Color-->
+                <div id="color2" class="color"></div>
+                <!--Random Color-->
+                <div id="color3" class="color"></div>
+                <!--Random Color-->
+            </div>
+        </div>
+        <div id="background-pixel">
+            <!--Local onde será apenas o bloco de alocação e organização de elementos.-->
+            <div id="pixel-board">
+                <!--Tabela de pixels que serão pintados-->
+                <div class="linePixelColor"></div>
+                <div class="linePixelColor"></div>
+                <div class="linePixelColor"></div>
+                <div class="linePixelColor"></div>
+                <div class="linePixelColor"></div>
+            </div>
+        </div>
+        <footer>
+            <!--Roda pé da página com botões e input para textos de alteração da margem de pixels.-->
+            <div id="background-button">
+                <!--Div para organizar os elementos do input e button.-->
+                <div>
+                    <input type="text" id="textPixel" class="regulador">
+                    <!--Input para entrada de dados por digitação.-->
+                    <input type="submit" value="Ajustar Pixel" id="regularPixel" class="regulador">
+                    <!--Botão para confirmar a informação.-->
+                </div>
+                <div>
+                    <button type="button" id="clear">Clear</button>
+                    <!--Botão de limpeza da página-->
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+    <!--Documento do Java Script-->
+</body>
+
+</html>
